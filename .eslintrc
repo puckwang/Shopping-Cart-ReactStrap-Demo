@@ -44,6 +44,7 @@
     "global-require": "off",
     "semi": "off",
     "react/jsx-first-prop-new-line": "off",
-    "react/jsx-indent-props": "off"
+    "react/jsx-indent-props": "off",
+    "react/jsx-indent": "off"
   }
 }
