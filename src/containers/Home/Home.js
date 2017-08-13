@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+
 import Header from './components/Header.js';
 import Content from './components/Content.js';
-import Hello from './Hello.js';
 import './Home.less';
 
 export default class Home extends Component {
@@ -10,7 +11,6 @@ export default class Home extends Component {
       <div id="pageHome">
         <Header />
         <Content />
-        <Hello />
       </div>
     );
   }
